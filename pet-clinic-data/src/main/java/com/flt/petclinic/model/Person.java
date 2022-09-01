@@ -1,8 +1,9 @@
 package com.flt.petclinic.model;
 
-public class Person {
+public class Person extends BaseEntity{
 
     private String firstName;
+    private String lastName;
 
     public String getFirstName() {
 
@@ -23,6 +24,4 @@ public class Person {
 
         this.lastName = lastName;
     }
-
-    private String lastName;
 }
